@@ -1,0 +1,41 @@
+.admin_data {
+  width: 100%;
+  height: 567px;
+  padding: 20px 30px;
+  background-color: rgb(244, 240, 240);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  overflow-y: scroll;
+}
+.data_div{
+    background-color: #BCB8B8;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+.label_btn_div{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.active_label{
+    font-weight: bold;
+    color:#318e56 ;
+    font-size: 23px;
+}
+.disabled_label{
+    font-weight: bold;
+    color:#ff0000 ;
+    font-size: 23px;
+}
+.disable_btn{
+    margin-top: 5px;
+    width: 150px;
+    height: 30px;
+    background-color: #800000;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+.disabled_btn{
+    display: none;
+}

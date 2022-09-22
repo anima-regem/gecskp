@@ -1,0 +1,12 @@
+.ins_details {
+  display: flex;
+  justify-content: space-between;
+}
+.ins_details > img {
+  width: 120px;
+}
+@media (max-width: 430px) {
+  .ins_details > img {
+    display: none;
+  }
+}

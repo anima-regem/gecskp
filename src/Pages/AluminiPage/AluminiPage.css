@@ -1,0 +1,29 @@
+.alumini_img > img {
+  width: 90%;
+}
+.alumini_line {
+  width: 100%;
+  height: 1.25px;
+  background-color: #dadada;
+  margin: 20px 0 20px 0;
+}
+.alumini_details {
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+}
+.alumini_details > p {
+  margin: 10px 0 0 20px;
+}
+@media (max-width: 430px) {
+  .alumini_img > img {
+    width: 100%;
+  }
+  .alumini_details {
+    padding: 0 0 0 0;
+  }
+  .alumini_details > p {
+    margin: 10px 0 0 10px;
+  }
+  
+}

@@ -1,0 +1,18 @@
+/* .pdf_view{
+    position: fixed;
+    z-index: 1000;
+    height: 100vh;
+} */
+
+
+/* .pdf_view_section{
+    position: relative;
+}
+.pdf_frame{
+    height: 100vh;
+} */
+.pdf_frame{
+    height: 100vh;
+    position: fixed;
+    top: 0;
+}

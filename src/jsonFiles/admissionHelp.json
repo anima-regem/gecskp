@@ -1,0 +1,38 @@
+[
+    {
+        "query":"General Queries",
+        "name":"Sri. Shine",
+        "position":"Administrative Assistant",
+        "mail":"aa@gecskp.ac.in",
+        "phone":"97455 54255"
+    },
+    {
+        "query":"Fee Queries",
+        "name":"Sri. M.P. Suresh",
+        "position":"Head Accountant",
+        "mail":"ha@gecskp.ac.in",
+        "phone":"98952 31120"
+    },
+    {
+        "query":"KEAM/CEE/LET related Queries",
+        "name":"Sri. Abid Tharavattath",
+        "position":"Computer Programmer",
+        "mail":"abid@gecskp.ac.in",
+        "phone":"94478 42699"
+    },
+    {
+        "query":"Technical Queries",
+        "name":"Sri. Premkumar M P",
+        "position":"Computer Programmer",
+        "mail":"portaladmin@gecskp.ac.in",
+        "phone":"94009 83091"
+    },
+    {
+        "query":"",
+        "name":"Sri. Rajeev",
+        "position":"Clerk - Admission",
+        "mail":"c1academic@gecskp.ac.in",
+        "phone":"94475 25135"
+    }
+    
+]

@@ -1,0 +1,68 @@
+{
+    "ccfFacilities":[
+        {
+            "para":"Providing Authentication"
+        },
+        {
+            "para":"Browsing Facility"
+        },
+        {
+            "para":"WiFi Access Download Request Form"
+        },
+        {
+            "para":"Online Examination and Traning"
+        },
+        {
+            "para":"Technical suppor to other Departments and college office"
+        },
+        {
+            "para":"Providing Expert advice in IT related purchases"
+        },
+        {
+            "para":"Support for AICTE & KTU related works"
+        }
+        
+    ],
+    "ccfDetails":[
+        {
+            "para":"Balu John"
+        },
+        {
+            "para":"Sijo Vadakkan"
+        },
+        {
+            "para":"Abid Tharavattath"
+        }
+    ],
+    "ccfDocs":[
+        {
+            "para":""
+        }
+    ],
+    "ccfData":[
+        {
+            "spanTitle":"Central Computing Facility (CCF) ",
+            "para":"is a centralised Computer Centre for the staff and students of this college. CCF is maintaining and managing the Campus networking and Internet Facility. CCF started in the year 2015 with browsing facility. Now the CCF is equiped with around 70 Desktop systems, 100mbps NKN internet connectivity with a 30Mbps backup connection. Providing both wired and WiFi connectivity to students and staffs. Service of wifi internet connectivity is extended to both the hostels."
+        },
+        {
+            "spanTitle":"Authentication : ",
+            "para":"Access to the College network and internet connectivity is restricted through a user level authentication system. For obtaining the authentication credentials, contact CCF. Students are requested to apply through their staff advisor."
+        },
+        {
+            "spanTitle":"Browsing : ",
+            "para":"CCF is open for browsing from 9.30AM to 4.30 PM on all week days . ASCE & ASME is available to access in CCF."
+        },
+        {
+            "spanTitle":"Central Computing Facility (CCF) ",
+            "para":"is a centralised Computer Centre for the staff and students of this college. CCF is maintaining and managing the Campus networking and Internet Facility. CCF started in the year 2015 with browsing facility. Now the CCF is equiped with around 70 Desktop systems, 100mbps NKN internet connectivity with a 30Mbps backup connection. Providing both wired and WiFi connectivity to students and staffs. Service of wifi internet connectivity is extended to both the hostels."
+        },
+        {
+            "spanTitle":"Authentication : ",
+            "para":"Access to the College network and internet connectivity is restricted through a user level authentication system. For obtaining the authentication credentials, contact CCF. Students are requested to apply through their staff advisor."
+        },
+        {
+            "spanTitle":"Browsing : ",
+            "para":"CCF is open for browsing from 9.30AM to 4.30 PM on all week days . ASCE & ASME is available to access in CCF."
+        }
+    ]
+}

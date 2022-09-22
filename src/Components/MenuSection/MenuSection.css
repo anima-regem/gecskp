@@ -1,0 +1,277 @@
+.navigation_menu {
+  display: flex;
+  justify-content: space-between;
+}
+.menu_section  ul{
+  z-index: 1000;
+}
+.menu-para-link {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 36px;
+  /* identical to box height */
+  cursor: pointer;
+  margin-bottom: 4px;
+  color: #000000;
+  transition: 0.5s;
+}
+/* .nav_link_icon{
+    color: #800000;
+} */
+
+.nav_underline {
+  width: 100%;
+  height: 2px;
+  background-color: #800000;
+  margin-top: -20px;
+  border-radius: 5px;
+  transition: 0.5s;
+  display: none;
+}
+.nav_link_icon {
+  color: #800000;
+}
+.link_line {
+  width: 85%;
+  height: 0.5px;
+  background-color: #800000;
+}
+
+.dropdown {
+  position: absolute;
+  background-color: #f9f4ef;
+  list-style: none;
+  left: 17vw;
+  display: none;
+  margin-top: -15px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.academics_link {
+  transition: 0.2s;
+}
+.academics_link:hover,
+.facilities_links:hover,
+.administration_links:hover,
+.home_link:hover,
+.activities_link:hover,
+.departments_link:hover,
+.more_link:hover {
+  /* text-decoration: underline; */
+  color: #800000;
+}
+.academics_link:hover ~ .dropdown {
+  display: block;
+}
+
+.dropdown:hover {
+  display: block;
+}
+.facilities_dropdown {
+  position: absolute;
+  background-color: #f9f4ef;
+  list-style: none;
+  margin-top: -15px;
+  left: 70vw;
+  display: none;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.facilities_dropdown li {
+  padding: 10px 20px 10px 0;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18.7272px;
+  line-height: 28px;
+  /* identical to box height */
+  cursor: pointer;
+  color: #000000;
+}
+.facilities_links:hover ~ .facilities_dropdown {
+  display: block;
+}
+.facilities_dropdown:hover {
+  display: block;
+}
+.administration_dropdown {
+  position: absolute;
+  background-color: #f9f4ef;
+  list-style: none;
+  margin-top: -15px;
+  display: none;
+  left: 30vw;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.administration_links:hover ~ .administration_dropdown {
+  display: block;
+}
+.administration_dropdown:hover {
+  display: block;
+}
+.dropdown li,
+.administration_dropdown li {
+  padding: 10px 20px 10px 0;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18.7272px;
+  line-height: 28px;
+  /* identical to box height */
+  cursor: pointer;
+  color: #000000;
+}
+
+.activity_dropdown {
+  display: flex;
+  position: absolute;
+  color: rgb(0, 0, 0);
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  width: max-content;
+  display: none;
+  left: 46vw;
+}
+.activity_dropdown .activity_links{
+  background-color: #f9f4ef;
+  list-style: none;
+  margin-top: -15px;
+  left: 30vw;
+  
+}
+.activity_dropdown .activity_links li{
+  padding: 10px 20px 10px 0;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18.7272px;
+  line-height: 28px;
+  /* identical to box height */
+  cursor: pointer;
+  color: #000000;
+}
+.activities_link:hover ~.activity_dropdown{
+  display: inline-flex;
+}
+.activity_dropdown:hover{
+  display: inline-flex;
+}
+.malayalam_link {
+  font-family: "Noto Sans Malayalam", sans-serif;
+}
+
+.dropdown_animation{
+  /* animation: rotateMenu 600ms ease-in-out forwards; 
+  transform-origin: top center */
+  animation: downOut 200ms ease-in-out forwards;
+  transform-origin: center center
+}
+
+.activity_dropdown > ul > li{
+  font-size: 16px;
+  line-height: 22px; 
+}
+.dropdown > li{
+  font-size: 16px;
+  line-height: 22px;
+}
+.teqip_dropdown{
+  left: 53vw;
+}
+.more_dropdown{
+  width: fit-content;
+  padding-right: 10px;
+  position: absolute;
+  background-color: #f9f4ef;
+  list-style: none;
+  right: 7vw;
+display: none;
+  margin-top: -15px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.more_li{
+  padding: 5px 0 5px 0;
+  font-size: 18px;
+  line-height: 28px; 
+}
+.more_link:hover ~.more_dropdown{
+display: block;}
+.more_dropdown:hover{
+  display: block;
+}
+
+
+
+@media (max-width: 1400px){
+  .malayalam_link {
+    font-size: 22px;
+  }
+}
+@media (max-width: 1201px) {
+  .menu-para-link {
+    font-size: 23px;
+  }.malayalam_link {
+    font-size: 18px;
+  }
+}
+@media (max-width: 992px){
+  .malayalam_link {
+    font-size: 13px;
+  }
+}
+@media (max-width: 960px) {
+  .menu-para-link {
+    font-size: 15px;
+  }
+  .malayalam_link {
+    font-size: 13px;
+  }
+}
+@media (max-width: 768px) {
+  .navigation_menu {
+    display: none;
+  }
+}
+@media (max-width: 430px) {
+}
+
+
+/* Active animation */
+@keyframes downOut {
+  0% {
+     transform: translateY(0px) transLateY(-20px);
+     opacity: 0;
+ }
+ 100% {
+     transform: transLateY(0px) transLateY(10px);
+     opacity: 1;
+ }
+}
+
+
+/* animation */
+/* @keyframes rotateMenu {
+  0% {
+      transform: rotateX(-90deg)
+  }
+  70% {
+      transform: rotateX(20deg);
+  }
+  100% {
+      transform: rotateX(0deg);
+  }
+} */
+
+
+
+
+/* @keyframes downOut {
+  0% {
+     transform: translateZ(200px) transLateY(40px)
+ }
+ 80% {
+     transform: translateZ(-10px) transLateY(0px)
+ }
+ 100% {
+     transform: translateZ(0px) transLateY(0px)
+ }
+} */

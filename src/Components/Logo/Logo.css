@@ -1,0 +1,104 @@
+.header_logo_section {
+  display: flex;
+  margin-top: 18px;
+  align-items: center;
+}
+.header_logo_section .header_heading {
+  margin-left: 25px;
+}
+.header_logo_section img {
+  width: 127px;
+  height: 130px;
+}
+
+.header_logo_section h2 .english_logo_heading
+{
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 130.5%;
+  color: #800000;
+}
+
+.logo_para_footer {
+  color: #ffff;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 130.5%;
+}
+.malayalam_logo_heading {
+  font-family: "Noto Sans Malayalam", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 130.5%;
+  color: #800000;
+}
+.header_logo_section p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+
+  color: #5c5c5c;
+}
+.english_logo_heading_footer {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 130.5%;
+  color: #ffffff;
+}
+.english_logo_heading_header {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 130.5%;
+  color: #800000;
+}
+
+@media (max-width: 965px) {
+  .header_logo_section .collage_logo {
+    width: 90px;
+    height: 92px;
+  }
+  .header_logo_section .english_logo_heading,
+  .malayalam_logo_heading {
+    font-size: 16px;
+    padding-top: 20px;
+  }
+}
+
+@media (max-width: 430px) {
+  .header_logo_section .collage_logo {
+    width: 58.55px;
+    height: 59.93px;
+    margin-left: 10px;
+    margin-right: -15px;
+  }
+
+  .header_logo_section .english_logo_heading,
+  .malayalam_logo_heading {
+    font-size: 8.29px;
+    padding: 0%;
+  }
+  .header_logo_section .logo_para {
+    font-size: 5px;
+    line-height: 8px;
+  }
+  .header_heading {
+    margin-top: 17px;
+  }
+  .header_logo_section {
+    margin-top: 0;
+  }
+  .header_heading > .malayalam_logo_heading{
+    font-size: 8.29px;
+  }
+}

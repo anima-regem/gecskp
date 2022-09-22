@@ -1,0 +1,53 @@
+{
+    "ugtitle":"Under graduate programme B.Tech (4 year, full time) in the following branches :",
+    "ug":[
+        {
+            "title":"Computer Science and Engineering",
+            "description":"The Department offers B.Tech course in Computer Scinece and Engineering(4 year, full time). Affiliated to APJ Abdul Kalam University.",
+            "url":"/department/1"
+        },
+        {
+            "title":"Electronics & Communications Engineering",
+            "description":"The Department offers B.Tech course in Electronics and communication Engineering.. Intake is 60 + 6 lateral entires per year.",
+            "url":"/department/4"
+        },
+        {
+            "title":"Information Technology",
+            "description":"The Department offers B.Tech in Information Technology (4 year, full time). Affiliated to APJ Abdul Kalam University (intake: 63 plus 6 as Lateral entry in the third semester).",
+            "url":"/department/2"
+        },
+        {
+            "title":"Mechanical Engineering",
+            "description":"The Department offers B.Tech course in Mechanical Engineering(4 year, full time). Affiliated to APJ Abdul Kalam University.",
+            "url":"/department/3"
+        },
+        {
+            "title":"Electrical and Electronics Engineering",
+            "description":"The Department offers B.Tech course in Electrical and Electronics Engineering(4 year, full time). Affiliated to APJ Abdul Kalam University.",
+            "url":"/department/6"
+        },
+        {
+            "title":"Civil Engineering",
+            "description":"The Department offers B.Tech course in Civil Engineering(4 year, full time). Affiliated to APJ Abdul Kalam University.",
+            "url":"/department/5"
+        }
+        
+    ],
+    "pgtitle":"Post Graduate programme M.Tech Computer science (2 year , full time) :",
+    "pg":[
+        {
+            "title":"Computer Science and Engineering",
+            "description":"The Department offers M.Tech course in Computational Linguistics(2 year, full time). Affiliated to APJ Abdul Kalam University.",
+            "url":"/department/1"
+        },
+        {
+            "title":"Mechanical Engineering",
+            "description":"The Department offers M.Tech course in Robotics(2 year, full time). Affiliated to APJ Abdul Kalam University.",
+            "url":"/department/3"
+        }
+    ],
+    "phdtitle":"PhD course ( under KTU )",
+    "phd":[
+        
+    ]
+}

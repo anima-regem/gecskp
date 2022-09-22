@@ -1,0 +1,60 @@
+.admission_body {
+  background: url(../body_background.png);
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.admission_help_section {
+  width: 100%;
+  height: fit-content;
+  background: #f9f4ef;
+}
+.admission_help_section > .admission_heading {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #000000;
+  padding: 50px 0 0 20px;
+  margin: 0;
+}
+.admission_line_section {
+  margin-top: 18px;
+  margin-bottom: 18px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.admission_line {
+  width: 90%;
+  height: 1.25px;
+  background-color: #dadada;
+}
+.admisson_help_details > p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+}
+.admission_notifications > p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 10px;
+  cursor: pointer;
+}
+.admission_notifications > p:hover{
+    text-decoration: underline;
+}
+.admission_help_staff > p{
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 10px;
+}

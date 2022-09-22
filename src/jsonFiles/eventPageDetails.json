@@ -1,0 +1,107 @@
+[
+    {
+        "id":"1",
+        "imageURL":"/images/Daksha.png",
+        "eventHeading":"DAKSHA ‘22",
+        "time":"09:00 AM | JUN 13, 2022",
+        "dakshaImages":[{
+            "aboutDaksha":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum fermentum urna. Cras tincidunt sodales metus. Vivamus condimentum sit amet elit nec lobortis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum fermentum urna. Cras tincidunt sodales metus. Vivamus condimentum sit amet elit nec lobortis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum fermentum urna. Cras tincidunt sodales metus. Vivamus condimentum sit amet elit nec lobortis.",
+            "img_1":"/images/dakshaImages/daksha_face_art.png",
+            "img_2":"/images/dakshaImages/daksha_face_art.png",
+            "img_3":"/images/dakshaImages/daksha_face_art.png",
+            "img_4":"/images/dakshaImages/daksha_face_art.png",
+            "img_5":"/images/dakshaImages/daksha_face_art.png"
+        }]
+    },
+    {
+        "id":"2",
+        "imageURL":"/images/dakshaImages/daksha_face_art.png",
+        "eventHeading":"ASSOSIATION DAY",
+        "dakshaImages":[{
+            "aboutDaksha":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum fermentum urna. Cras tincidunt sodales metus. Vivamus condimentum sit amet elit nec lobortis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum fermentum urna. Cras tincidunt sodales metus. Vivamus condimentum sit amet elit nec lobortis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum fermentum urna. Cras tincidunt sodales metus. Vivamus condimentum sit amet elit nec lobortis.",
+            "img_1":"/images/Daksha.png",
+            "img_2":"/images/dakshaImages/daksha_face_art.png",
+            "img_3":"/images/Assosiation_Day.png",
+            "img_4":"/images/dakshaImages/daksha_face_art.png",
+            "img_5":"/images/dakshaImages/daksha_face_art.png"
+        }]
+    },
+    {
+        "id":"3",
+        "imageURL":"/images/dakshaImages/dj.png",
+        "eventHeading":"DAKSHA ‘22",
+        "dakshaImages":[{
+            "aboutDaksha":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum fermentum urna. Cras tincidunt sodales metus. Vivamus condimentum sit amet elit nec lobortis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum fermentum urna. Cras tincidunt sodales metus. Vivamus condimentum sit amet elit nec lobortis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum fermentum urna. Cras tincidunt sodales metus. Vivamus condimentum sit amet elit nec lobortis.",
+            "img_1":"/images/dakshaImages/dj.png",
+            "img_2":"/images/dakshaImages/daksha_face_art.png",
+            "img_3":"/images/dakshaImages/dj.png",
+            "img_4":"/images/dakshaImages/daksha_face_art.png",
+            "img_5":"/images/dakshaImages/daksha_face_art.png"
+        }]
+    },
+    {
+        "id":"4",
+        "imageURL":"/images/Assosiation_Day.png",
+        "eventHeading":"ASSOSIATION DAY",
+        "dakshaImages":[{
+            "aboutDaksha":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum fermentum urna. Cras tincidunt sodales metus. Vivamus condimentum sit amet elit nec lobortis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum fermentum urna. Cras tincidunt sodales metus. Vivamus condimentum sit amet elit nec lobortis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum fermentum urna. Cras tincidunt sodales metus. Vivamus condimentum sit amet elit nec lobortis.",
+            "img_1":"/images/dakshaImages/daksha_face_art.png",
+            "img_2":"/images/dakshaImages/daksha_face_art.png",
+            "img_3":"/images/dakshaImages/daksha_face_art.png",
+            "img_4":"/images/dakshaImages/daksha_face_art.png",
+            "img_5":"/images/dakshaImages/daksha_face_art.png"
+        }]
+    },
+    {
+        "id":"5",
+        "imageURL":"/images/Daksha.png",
+        "eventHeading":"DAKSHA ‘22",
+        "dakshaImages":[{
+            "aboutDaksha":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum fermentum urna. Cras tincidunt sodales metus. Vivamus condimentum sit amet elit nec lobortis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum fermentum urna. Cras tincidunt sodales metus. Vivamus condimentum sit amet elit nec lobortis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum fermentum urna. Cras tincidunt sodales metus. Vivamus condimentum sit amet elit nec lobortis.",
+            "img_1":"/images/dakshaImages/daksha_face_art.png",
+            "img_2":"/images/dakshaImages/daksha_face_art.png",
+            "img_3":"/images/dakshaImages/daksha_face_art.png",
+            "img_4":"/images/dakshaImages/daksha_face_art.png",
+            "img_5":"/images/dakshaImages/daksha_face_art.png"
+        }]
+    },
+    {
+        "id":"6",
+        "imageURL":"/images/Assosiation_Day.png",
+        "eventHeading":"ASSOSIATION DAY",
+        "dakshaImages":[{
+            "aboutDaksha":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum fermentum urna. Cras tincidunt sodales metus. Vivamus condimentum sit amet elit nec lobortis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum fermentum urna. Cras tincidunt sodales metus. Vivamus condimentum sit amet elit nec lobortis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum fermentum urna. Cras tincidunt sodales metus. Vivamus condimentum sit amet elit nec lobortis.",
+            "img_1":"/images/dakshaImages/daksha_face_art.png",
+            "img_2":"/images/dakshaImages/daksha_face_art.png",
+            "img_3":"/images/dakshaImages/daksha_face_art.png",
+            "img_4":"/images/dakshaImages/daksha_face_art.png",
+            "img_5":"/images/dakshaImages/daksha_face_art.png"
+        }]
+    },
+    {
+        "id":"7",
+        "imageURL":"/images/Daksha.png",
+        "eventHeading":"DAKSHA ‘22",
+        "dakshaImages":[{
+            "aboutDaksha":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum fermentum urna. Cras tincidunt sodales metus. Vivamus condimentum sit amet elit nec lobortis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum fermentum urna. Cras tincidunt sodales metus. Vivamus condimentum sit amet elit nec lobortis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum fermentum urna. Cras tincidunt sodales metus. Vivamus condimentum sit amet elit nec lobortis.",
+            "img_1":"/images/dakshaImages/daksha_face_art.png",
+            "img_2":"/images/dakshaImages/daksha_face_art.png",
+            "img_3":"/images/dakshaImages/daksha_face_art.png",
+            "img_4":"/images/dakshaImages/daksha_face_art.png",
+            "img_5":"/images/dakshaImages/daksha_face_art.png"
+        }]
+    },
+    {
+        "id":"8",
+        "imageURL":"/images/Assosiation_Day.png",
+        "eventHeading":"ASSOSIATION DAY",
+        "dakshaImages":[{
+            "aboutDaksha":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum fermentum urna. Cras tincidunt sodales metus. Vivamus condimentum sit amet elit nec lobortis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum fermentum urna. Cras tincidunt sodales metus. Vivamus condimentum sit amet elit nec lobortis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum fermentum urna. Cras tincidunt sodales metus. Vivamus condimentum sit amet elit nec lobortis.",
+            "img_1":"/images/dakshaImages/daksha_face_art.png",
+            "img_2":"/images/dakshaImages/daksha_face_art.png",
+            "img_3":"/images/dakshaImages/daksha_face_art.png",
+            "img_4":"/images/dakshaImages/daksha_face_art.png",
+            "img_5":"/images/dakshaImages/daksha_face_art.png"
+        }]
+    }
+]

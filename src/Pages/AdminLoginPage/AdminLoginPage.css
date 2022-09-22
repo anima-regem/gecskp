@@ -1,0 +1,39 @@
+/* @import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"; */
+
+
+.admin_login_section{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.admin_login_section > h1{
+    font-family: 'poppins';
+    text-align: left;
+    font-size: 30px;
+    margin: 0;
+    font-weight: bold;
+    width: fit-content;
+    color: grey;
+}
+.admin_login_section > input{
+    width: 250px;
+    border-radius: 5px;
+    border: .5px solid rgb(99, 98, 98);
+    font-size: 18px;
+    padding: 10px 10px;
+}
+.admin_login_section > button {
+    border: none;
+    background-color: #800000;
+    color: white;
+    width: 250px;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.admin_login_section > button :hover{
+    background-color: #5d0202;
+}

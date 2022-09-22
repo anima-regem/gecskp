@@ -1,0 +1,10 @@
+.header_line {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .header_line .line {
+    width: 85%;
+    height: 1px;
+    background-color: #800000;
+  }

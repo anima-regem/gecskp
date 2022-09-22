@@ -1,0 +1,329 @@
+body {
+  background-color: #f9f4ef;
+}
+.header_section {
+  background: url(/public/images/header_background.svg);
+
+  width: 100%;
+
+  background-position: right;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.red_header {
+  width: 100%;
+  height: 22px;
+  background: #800000;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.language_btn {
+  height: 22px;
+  font-size: 15px;
+  letter-spacing: 1px;
+  border: none;
+  background: none;
+  color: white;
+}
+.malayalam_btn {
+  font-family: "Noto Sans Malayalam", sans-serif;
+  font-size: 15px;
+}
+.header_menuButton {
+  display: none;
+}
+.header_logo_section {
+  display: flex;
+  margin-top: 18px;
+  align-items: center;
+}
+.header_logo_section .header_heading {
+  margin-left: 25px;
+}
+.header_logo_section img {
+  width: 127px;
+  height: 130px;
+}
+.header_line {
+  width: 100%;
+  height: 1px;
+  background-color: #800000;
+  margin-top: -5px;
+  margin-bottom: 5px;
+}
+.header_logo_section h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 130.5%;
+  color: #800000;
+}
+.header_logo_section p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+
+  color: #5c5c5c;
+}
+
+/* search section start*/
+
+.search_section {
+  padding-top: 60px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 56px;
+}
+
+.login_btn,
+.malayalam_login_btn {
+  height: 45px;
+  padding: 0 26px 0 26px;
+  background: #800000;
+  border-radius: 15px;
+  border: none;
+  color: white;
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20.8267px;
+  transition: 0.5s;
+}
+.malayalam_login_btn {
+  font-family: "Noto Sans Malayalam", sans-serif;
+}
+.login_btn:hover,
+.malayalam_login_btn:hover {
+  background-color: #4d0000;
+}
+
+.header_search_btn {
+  background: none;
+  border: none;
+  transition: 0.5s;
+}
+.search_input {
+  height: 45px;
+  padding: 0px 30px 0 30px;
+  background: #f9f4ef;
+  border: 0.25px solid #800000;
+  border-radius: 15px;
+  transition: 0.5s;
+}
+.search_input:focus {
+  border: 1px solid #000000;
+}
+.header_search_box {
+  background: none;
+  border: none;
+  padding-top: 10px;
+  transition: 0.5s;
+}
+.header_search_box:focus {
+  outline: none;
+}
+#close_btn {
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.menu_button_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* search section ends */
+
+/* mobile menu starts */
+
+.mobile_menu_section {
+  display: flex;
+  justify-content: space;
+  width: 100%;
+  min-height: 100vh;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.8);
+  top: 0;
+  display: none;
+  z-index: 999;
+}
+.mobile_menu_left {
+  width: 25%;
+  height: 100vh;
+  background-color: none;
+  position: fixed;
+  top: 0;
+}
+.mobile_menu {
+  background-color: #313132;
+  width: 75%;
+  height: 100vh;
+  overflow-y: scroll;
+  z-index: 1;
+  color: white;
+  padding: 10% 12%;
+  position: fixed;
+  overflow-y: scroll;
+}
+.mobile_menu_icons {
+  display: flex;
+  justify-content: space-between;
+}
+.search_icon {
+  font-size: 20px;
+}
+.x_icon {
+  font-size: 25px;
+}
+.mobile_menu_links > p {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20.8267px;
+  line-height: 26px;
+  margin-top: 20px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+.mobile_menu_heading {
+  position: relative;
+  top: 50px;
+}
+.mobile_menu_heading > h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 130.5%;
+}
+.mobile_menu_heading > p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 6.27014px;
+  line-height: 9px;
+  color: #b6b6b6;
+}
+
+/* mobile menu ends */
+@media (max-width: 990px) {
+  .search_section {
+    padding-top: 60px;
+    margin-right: -35px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 45px;
+  }
+  .header_logo_section {
+    margin-left: -35px;
+    margin-top: 18px;
+  }
+  .malayalam_login_btn {
+    font-size: 15px;
+    width: max-content;
+  }
+  .login_btn {
+    font-size: 15px;
+    width: max-content;
+  }
+  .search_input {
+    position: relative;
+    height: 40px;
+    width: 200px;
+    margin-right: -20px;
+    padding: 0px 30px 0 30px;
+    background: #f9f4ef;
+    border: 0.25px solid #800000;
+    border-radius: 15px;
+    transition: 0.5s;
+  }
+  .header_search_box {
+    font-size: 13px;
+  }
+
+  #close_btn {
+    position: absolute;
+    top: 10.5px;
+  }
+}
+@media (max-width: 655px) {
+  .header_logo_section {
+    margin-left: -10px;
+    margin-top: 18px;
+  }
+}
+
+@media (max-width: 769px) {
+  .search_section {
+    display: none;
+  }
+  .header_menuButton {
+    display: block;
+    padding-top: 75%;
+    font-size: 40px;
+    color: #800000;
+  }
+  .mobile_menu_section {
+    display: inline-flex;
+  }
+}
+
+@media (max-width: 430px) {
+  .header_logo_section {
+    margin-top: 0px;
+  }
+  .mobile_menu_section {
+    display: inline-flex;
+  }
+  .header_menuButton_div {
+    display: flex;
+    padding: 10px;
+  }
+  .header_menuButton {
+    font-size: 20px;
+    /* align-self: center; */
+  }
+  .red_header {
+    width: 100%;
+    height: 14px;
+    background: #800000;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .language_btn {
+    font-size: 9.5px;
+    letter-spacing: 1px;
+  }
+  .header_line {
+    display: none;
+  }
+}
+
+.mobile_search {
+  display: flex;
+  background-color: rgb(242, 242, 242);
+  position: relative;
+  margin-left: -20px;
+  border-radius: 2px;
+  /* box-shadow: rgba(255, 255, 255, 0.1) 0px 4px 12px; */
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.mobile_search > input {
+  background: none;
+  width: 170px;
+  border: none;
+  font-size: 12px;
+  padding: 9px;
+}
+.mobile_search > input:focus {
+  outline: none;
+}

@@ -1,0 +1,115 @@
+.course__wrapper {
+  background: url(../body_background.png);
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.course__heading > h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 42px;
+  color: #000000;
+  border-left: 3px solid #4e4e4e;
+  padding-left: 32px;
+}
+.course__card {
+  width: 90%;
+  height: 280px;
+  background: rgba(255, 255, 255, 0.1);
+  border-top: 1.5px solid #800000;
+  box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, 0.2);
+  background-color: rgb(248, 244, 244);
+  border-radius: 4.63974px;
+  margin-top: 85px;
+}
+.course__card__details {
+  padding: 20px 35px;
+}
+.course__card__details > h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22.9px;
+  line-height: 130.5%;
+  color: #000000;
+}
+.course__card__details > p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17.1266px;
+  line-height: 135%;
+  color: #000000;
+}
+.course_line_section {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 20px 0;
+}
+.course_line {
+  width: 350px;
+  height: 1px;
+  background-color: #dadada;
+}
+.course__card__details > .more_link {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 36px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #00a3ff;
+}
+@media(max-width:768px){
+    .course__card__section{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+      }
+      .course__card__details > .more_link {
+        margin: 0;
+        font-size: 12px;
+      }
+}
+@media (max-width: 430px) {
+  .course__heading > h1 {
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    padding-left: 16px;
+  }
+  .course__card {
+    width: 90%;
+    height: 180px;
+    margin-top: 40px;
+  }
+  .course__card__details > h1 {
+    font-size: 18px;
+    line-height: 130.5%;
+  }
+  .course__card__details > p {
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 0;
+  }
+  .course__card__details {
+    padding: 10px 25px;
+  }
+  .course_line_section {
+    margin: 10px 0 10px 0;
+  }
+  .course__card__section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .course__card__details > .more_link {
+    margin: 0;
+    font-size: 12px;
+  }
+}

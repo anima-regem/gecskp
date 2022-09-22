@@ -1,0 +1,49 @@
+.accordion_heading {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20.8267px;
+  line-height: 26px;
+  color: #ffffff;
+  margin-top: 5px;
+  margin-left: -5px;
+  padding: 10px;
+}
+.accordion_heading:hover{
+    background-color: rgb(74, 71, 71);
+    border-radius: 5px;
+}
+.accordion_menu_list{
+    list-style: none;
+    font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+
+}
+.accordion_menu_list > li{
+    margin-top: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: -10px;
+}
+.accordion_menu_list > li:hover{
+    background-color: rgb(74, 71, 71);
+    border-radius: 5px;
+    
+}
+
+
+/* animation */
+@keyframes rotateMenu {
+  0% {
+      transform: rotateX(-90deg)
+  }
+  70% {
+      transform: rotateX(20deg) 
+  }
+  100% {
+      transform: rotateX(0deg) 
+  }
+}

@@ -1,0 +1,68 @@
+.body__announcement {
+  margin-bottom: 50px;
+}
+.announcementLine {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+.BodyAnnouncementLine {
+  width: 50%;
+  height: 0.5px;
+  background-color: #dadada;
+}
+.announcement__heading {
+  display: flex;
+  justify-content: space-between;
+}
+.announcement__heading > h2 {
+  border-left: 2px solid #800000;
+  padding-left: 16px;
+  font-size: 42px;
+}
+.announcement__heading > p {
+  font-size: 24px;
+}
+.announcement > h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  margin-top: 20px;
+}
+.announcement > p {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+}
+.announcements {
+  padding: 0 20px;
+}
+@media (max-width: 430px) {
+  .announcement__heading > h2 {
+    padding-left: 16px;
+    font-size: 18px;
+  }
+  .announcement__heading > p {
+    font-size: 10px;
+  }
+  .announcement > h3 {
+    font-size: 12px;
+    line-height: 14px;
+    margin: 15px 0 0 0;
+  }
+  .announcement > p {
+    font-size: 8px;
+    line-height: 10px;
+    margin-top: 4px;
+  }
+  .announcementLine {
+    margin-top: 0px;
+  }
+  .announcements{
+    margin-top: 20px;
+  }
+}

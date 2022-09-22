@@ -1,0 +1,6 @@
+.admin_section > h3{
+    font-size: 28px;
+    font-family: 'Poppins';
+    border-left: 3px solid #4E4E4E;
+    padding-left: 16px;
+}

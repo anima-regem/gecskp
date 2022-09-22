@@ -1,0 +1,41 @@
+.datacenter_heading > h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 42px;
+  border-left: 3px solid #4E4E4E;
+  padding-left: 16px;
+}
+.datacenter_para > p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 30px;
+}
+.datacenter_details > img{
+    width: 100%;
+}
+.datacenter_details > h3{
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 42px;
+    border-left: 3px solid #4E4E4E;
+    padding-left: 16px;
+}
+.connection_details > div{
+    margin-left: 20px;
+}
+.datacenter_details > p{
+    line-height: 36px;
+}
+.connection_details > div > h3{
+    font-size: 22px;
+    margin: 0 0 8px 0;
+}
+.connection_details > div > p{
+    margin: 0 0 8px 0;
+}

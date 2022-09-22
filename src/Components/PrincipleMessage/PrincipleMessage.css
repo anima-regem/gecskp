@@ -1,0 +1,189 @@
+.PrincipleMessage_section{
+  margin-top: 80px;
+}
+.message_heading{
+  margin-top: 80px;
+}
+.logo_img {
+  width: 143.51px;
+  height: 146.9px;
+}
+
+.PrincipleMessage {
+  background: url(/public/images/principleBackground.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+.principle_img {
+  margin-left: 60px;
+}
+.PrincipleMessage h1 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 63px;
+  color: #000000;
+  border-left:3px solid #800000;
+  padding-left: 30px;
+}
+.PrincipleMessage h2 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 42px;
+  /* identical to box height */
+  color: #151515;
+}
+.vision_para,
+.mission_para {
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 300;
+  font-size: 18.54px;
+  line-height: 38px;
+
+  color: #000000;
+}
+.message {
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 27px;
+  padding-top: 10px;
+  color: #151515;
+}
+.principle_name {
+  font-family: "Tiempos Headline";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 46px;
+  /* identical to box height */
+
+  color: #000000;
+}
+.principle {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+
+  color: #000000;
+
+  padding-bottom: 100px;
+}
+.principle_mobile_img {
+  display: none;
+}
+.mobile_principle_name {
+  display: none;
+}
+.principle_mobile {
+  display: none;
+}
+.message_logo {
+  margin-top: 107px;
+  display: flex;
+}
+.message_logo_para {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #800000;
+}
+
+@media (max-width: 430px) {
+
+  .message_div{
+    margin-top: -70px;
+  }
+  .principle_heading {
+    padding: 5vw;
+  }
+  .PrincipleMessage h1 {
+    font-size: 18px;
+    line-height: 27px;
+    padding-left: 16px;
+  }
+  .message_logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .message_logo > .logo_img {
+    height: 124.24px;
+    width: 121.37px;
+    align-self: flex-start;
+  }
+  .message_logo_para {
+    font-size: 14px;
+    line-height: 21px;
+    margin-left: -30px;
+  }
+  .message_logo {
+    margin-top: -5px;
+  }
+  .PrincipleMessage h2 {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+  }
+  .vision_para,
+  .mission_para {
+    font-size: 10px;
+    line-height: 15px;
+  }
+  .principle_img {
+    display: none;
+  }
+  .message {
+    font-size: 10px;
+    line-height: 15px;
+    padding-left: 23px;
+    margin-top: -40px;
+  }
+  .principle_mobile_img{
+    display: block;
+  }
+  .mobile_principle_name{
+    display: block;
+  }
+  .principle_mobile{
+    display: block;
+  }
+  .principle {
+    display: none;
+  }
+  .principle_name {
+    display: none;
+  }
+  .mobile_img_div{
+    padding:60px 5vw 80px;
+  }
+  .principle_mobile_img {
+    width: 151.28px;
+    height: 178.01px;
+  }
+  .mobile_principle_name {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .principle_mobile {
+    font-size: 10px;
+    line-height: 12px;
+  }
+  .mobile_para_div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: end;
+    padding-bottom: 75px;
+  }
+}

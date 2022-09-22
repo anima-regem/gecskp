@@ -1,0 +1,10 @@
+.bus_details >img{
+    width: 100%;
+}
+
+.bus_time_imgs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}

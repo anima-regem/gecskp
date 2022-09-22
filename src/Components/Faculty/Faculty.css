@@ -1,0 +1,88 @@
+.hod_card {
+  display: flex;
+  gap: 40px;
+  /* padding-top: 70px; */
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+.hod_card::-webkit-scrollbar {
+  display: none;
+}
+.hod_box {
+  height: 409px;
+  width: 228px;
+  /* background-color: #eaddcf; */
+  text-align: center;
+}
+.hod_details {
+  text-align: left;
+}
+.hod_details h3 {
+  font-family: "Tiempos Headline";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+
+  color: #000000;
+}
+.hod_details h4 {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  color: #000000;
+}
+.hod_details p {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #000000;
+}
+
+@media(max-width:430px){
+  .faculty_section{
+    margin-top: -30px;
+  }
+  .hod_card{
+    width: 100%;
+    height: 230px;
+    gap: 25px;
+    padding-top: 0%;
+    /* margin-left:20px ; */
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-bottom: -60px;
+  }
+  .hod_box{
+    width: 120px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+
+  }
+  .hod_box > img{
+    width: 120px;
+    height: 150px;
+  }
+  .hod_box > .hod_details > h3{
+    padding-top: 5px;
+
+    font-size: 11.5561px;
+    line-height: 14px;
+  }
+  .hod_box > .hod_details > h4{
+    font-size: 8.40446px;
+    line-height: 8px;
+  }
+  .hod_box > .hod_details > p{
+    font-size: 8.40446px;
+    line-height: 8px;
+  }
+}

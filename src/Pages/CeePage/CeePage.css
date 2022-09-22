@@ -1,0 +1,21 @@
+.common_heading > h1{
+    border-left: 3px solid #4E4E4E;
+    padding-left: 16px;
+    margin: 0;
+    /* margin: 24px 0 8px; */
+}
+.cee_heading{
+    display: flex;
+    justify-content: space-between;
+}
+.cee_heading > img{
+    margin-top: -15px;
+}
+.cee_body_section > p{
+    margin: 10px 0 0 20px;
+}
+@media(max-width:430px){
+    .cee_heading > img{
+        display: none;
+    }
+}

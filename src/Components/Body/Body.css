@@ -1,0 +1,192 @@
+.body_section {
+  overflow: hidden;
+  background: url(/public//images/body_background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  padding-top: 87px;
+}
+.body__announcement__section {
+  display: none;
+}
+.upcomming__events > img {
+  width: 100%;
+  height: 203px;
+  object-fit: cover;
+}
+.upcomming__events > p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 30px;
+}
+
+.dates_section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.important__dates > h4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+  color: #000000;
+}
+.date__line {
+  width: 680;
+  height: 1.25px;
+  background-color: #dadada;
+}
+
+.date > div > .month {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+}
+.dates_heading {
+  padding-top: 35px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 27px;
+  color: #000000;
+}
+.dates_line_div{
+  display: flex;
+  justify-content: center;
+}
+.dates_line{
+  margin: -5px 0 15px 0;
+  width: 100%;
+  height: 1px;
+  background-color: #dadada;
+}
+.date {
+  display: flex;
+  flex-direction: row;
+}
+.date > h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  /* identical to box height */
+  padding-left: 12px;
+  border-left: 2px solid #a8a8a8;
+}
+.date > div {
+  margin-right: 12px;
+}
+.date > div > .day {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 0px;
+  margin-left: -5px;
+  /* identical to box height */
+}
+.faculty__body__heading {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.faculty__body__heading > h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 63px;
+  border-left: 3px solid #800000;
+  padding-left: 30px;
+}
+.faculty__icon {
+  color: #800000;
+  height: 100px;
+  width: 50px;
+}
+.faculty__body__heading > p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 63px;
+  cursor: pointer;
+}
+
+@media (max-width: 915px) {
+  .body__announcement__section {
+    display: block;
+  }
+}
+@media (max-width: 767px) {
+  .events__bottom {
+    display: none;
+  }
+}
+
+@media (max-width: 430px) {
+  .body__news__section {
+    margin-top: 60px;
+  }
+  .important__dates > h4 {
+    font-size: 18px;
+  }
+  .date__line {
+    width: 680;
+    height: 1.25px;
+    background-color: #dadada;
+  }
+  .date > div > .month {
+    font-size: 10.7202px;
+    line-height: 16px;
+  }
+  .date {
+    padding-top: 35px;
+    display: flex;
+    flex-direction: row;
+  }
+  .date > h2 {
+    font-size: 14px;
+    padding-left: 12px;
+    line-height: 20px;
+    height: 40px;
+  }
+  .date > div {
+    margin-right: 12px;
+  }
+  .date > div > .day {
+    font-size: 23.9142px;
+    line-height: 28px;
+    margin-top: -21px;
+  }
+  .upcomming__events > p {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .faculty__body__heading > h1 {
+    font-size: 18px;
+    line-height: 27px;
+    height: fit-content;
+    padding-left: 16px;
+  }
+  .faculty__body__heading > p {
+    font-size: 10px;
+    line-height: 15px;
+  }
+  .upcomming__events > img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+  }
+}

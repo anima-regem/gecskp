@@ -1,0 +1,31 @@
+.syllabus_details{
+    margin-top: 50px;
+}
+.syllabus_details > h1{
+    font-size: 36px;
+    font-weight: bold;
+}
+.syllabus_details > ul{
+    margin-top: -5px;
+}
+.syllabus_details > ul > li >a {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    transition: 100ms;
+}
+.syllabus_details > ul > li >a:hover {
+    color: #3a77f0;
+}
+@media(max-width:430px){
+    .syllabus_details > h1{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .syllabus_details > ul > li >a {
+        font-size: 13px;
+    }
+    .syllabus_details{
+        margin-top: 38px;
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "busTime":[
+        {
+            "para":"Route 1 : Mannarkkad"
+        },
+        {
+            "para":"Route 2 : Local trip (GEC – Katampazhipuram – Sreekrshnapuram – GEC)"
+        },
+        {
+            "para":"Route 3 : Palakkad (via Olavakkot)"
+        },
+        {
+            "para":"Route 4 : Palakkad (via Pathirippala - Parali)"
+        },
+        {
+            "para":"Route 5 : Pattambi"
+        },
+        {
+            "para":"Route 6 : Shoranur"
+        }
+    ],
+    "busNotice":[
+        {
+            "para":"പുഞ്ചപ്പാടം, മേലേ പുഞ്ചപ്പാടം മംഗലാംകുന്നു സ്റ്റോപ്പുകൾ തല്ക്കാലം ഉണ്ടായിരിക്കുന്നത് അല്ല. സ്റ്റോപ്പുകളും സമയവും അറിയാൻ ഇവിടെ ക്ലിക്ക് ചെയ്യുക"
+        }
+    ],
+    "busSecretary":[
+        {
+            "para":"EY Muhammed Shafeeque"
+        },
+        {
+            "para":"Assistant Professor Mechanical Engineering"
+        },
+        {
+            "para":"Mob. 94473 63023"
+        },
+        {
+            "para":"Email: ey.shafeeque@gecskp.ac.in"
+        }
+    ],
+    "busTimes":[
+        {
+            "img":"https://www.gecskp.ac.in/pdf/news/bus1.jpg"
+        },
+        {
+            "img":"https://www.gecskp.ac.in/pdf/news/bus2.jpg"
+        },
+        {
+            "img":"https://www.gecskp.ac.in/pdf/news/bus3.jpg"
+        },
+        {
+            "img":"https://www.gecskp.ac.in/pdf/news/bus4.jpg"
+        },
+        {
+            "img":"https://www.gecskp.ac.in/pdf/news/bus5.jpg"
+        },        
+        {
+            "img":"https://www.gecskp.ac.in/pdf/news/bus6.jpg"
+        }
+    ]
+}

@@ -1,0 +1,121 @@
+[
+    {
+        "id":1,
+        "url":"cse",
+        "name":"Balu John",
+        "department":"Computer Science and Engineering",
+        "image":"/images/faculty_img.png",
+        "departmentPage": [
+            {
+                "heading":"Computer Science and Engineering",
+                "about":"The department of Computer Science and Engineering offering B.Tech in Comuter Science and Engineering, M.Tech in Computational Liguistics and PhD under the University of Calicut from 2012 onwards. Later, the programme has been affiliated to APJ Abdul Kalam Technological University since its inception from 2015 onwards.",
+                "mission1":"To become a Centre of Excellence in Computing and allied disciplines.",
+                "mission2":" ",
+                "mission3":" ",
+                "vision":"To impart high quality education in Computer science and Engineering that prepares the students for rewarding, enthusiastic and enjoyable careers in the industry, academia and other organizations.",
+                "HodName":"Balu John",
+                "email":"example@gmail.com",
+                "phone":"9876543210"
+            }
+        ]
+    },
+    {
+        "id":2,
+        "url":"IT",
+        "name":"Sangeetha Unnikrishnan",
+        "department":"Information Technology",
+        "image":"/images/faculty_img.png",
+        "departmentPage":[
+            {
+                "heading":"Information Technology",
+                "about":"The department of Information Technology offering B.Tech in Information Technology . Later the programme has been affiliated to APJ Abdul Kalam Technological University since its inception from 2015 onwards.",
+                "mission1":"To nurture and develop students as competent IT professionals capable of undertaking challenging and innovative programmes.",
+                "mission2":"To foster self disciplined and socially committed entrepreneurs.",
+                "mission3":" ",
+                "vision":"To achieve excellent standards in IT education and research by keeping abreast of innovations in Information Technology",
+                "HodName":"Dr. Sangeetha Unnikrishnan",
+                "email":"sangeetha@gecskp.ac.in",
+                "phone":"94464 93259"
+            }
+        ]
+    },
+    {
+        "id":3,
+        "url":"me",
+        "name":"Anoop George",
+        "department":"Mechanical Engineering",
+        "image":"/images/faculty_img.png",
+        "departmentPage":[
+            {
+                "heading":"Mechanical Engineering",
+                "about":"The department, affiliated to APJ Abdul Kalam Technological University, has been offering B.Tech degree in Mechanical Engineering since 2012. Total intake is 60+3, with additional lateral entry of 6 in the second year. Over the years, the department has transformed into a major centre for breeding mechanical engineering graduates of high quality, by the learning environment facilitated by faculty of top-notch calibre, with the support of modern laboratories, qualified technical staff and excellent class room and general infrastructure.The department relentlessly pursue excellence in creating a world class system for teaching, learning and research by rigorous assessments, both internal and external, of our processes, and benchmarking with top tier institutes. The process of continuous self upgradation helps us to stay relevant and to be a torch bearer in the ever changing world of technical education. We are committed to nurture engineering graduates, who have strong foundation of basic concepts, proficiency to use modern tools, soft skills to thrive in a team environment and a strong sense of ethics and societal commitment, which make them not only fit for industry and higher education but also responsible citizen.",
+                "mission1":"Impart quality education to mould successful engineers.",
+                "mission2":"Commitment to continuous improvement in overall quality of teaching, research, and service.",
+                "mission3":"Provide state-of-the-art infrastructure and research facilities.",
+                "vision":"To become a recognised center for imparting outstanding education, research, and consultancy in Mechanical Engineering",
+                "HodName":"Dr. Mahipal D",
+                "email":"hodme@gecskp.ac.in",
+                "phone":"9447432394"
+            }
+        ]
+    },
+    {
+        "id":4,
+        "url":"ece",
+        "name":"Dr. Bindu P",
+        "department":"Electronics and Communication Engineering",
+        "image":"/images/faculty_img.png",
+        "departmentPage":[
+            {
+                "heading":"Electronics and Communication Engineering",
+                "about":"Department of Electronics and Communication Engineering offering B.Tech in Electronics and Communication Engineering, . Later the programme has been affiliated to APJ Abdul Kalam Technological University since its inception from 2015 onwards. B.Tech programme is accredited by NBA",
+                "mission1":"To impart theoretical foundations in Electronics & Communication engineering and instill practical expertise in the related domains and modern tool usage",
+                "mission2":"To inculcate professional and ethical responsibility for teamwork",
+                "mission3":"To enhance communication skills",
+                "vision":"To mould the youth as excellent engineers in Electronics and Communication for the betterment of the society",
+                "HodName":"Dr. Bindu P",
+                "email":"bindup@gecskp.ac.in",
+                "phone":"9447432394"
+            }
+        ]
+    },
+    {
+        "id":5,
+        "url":"civil",
+        "name":"Balu John",
+        "department":"Computer Science and Engineering",
+        "image":"/images/faculty_img.png",
+        "departmentPage":[
+            {
+                "heading":"Civil Engineering",
+                "about":"The department, affiliated to APJ Abdul Kalam Technological University, has been offering B.Tech degree in Mechanical Engineering since 2012. Total intake is 60+3, with additional lateral entry of 6 in the second year. Over the years, the department has transformed into a major centre for breeding mechanical engineering graduates of high quality, by the learning environment facilitated by faculty of top-notch calibre, with the support of modern laboratories, qualified technical staff and excellent class room and general infrastructure.The department relentlessly pursue excellence in creating a world class system for teaching, learning and research by rigorous assessments, both internal and external, of our processes, and benchmarking with top tier institutes. The process of continuous self upgradation helps us to stay relevant and to be a torch bearer in the ever changing world of technical education. We are committed to nurture engineering graduates, who have strong foundation of basic concepts, proficiency to use modern tools, soft skills to thrive in a team environment and a strong sense of ethics and societal commitment, which make them not only fit for industry and higher education but also responsible citizen.",
+                "mission1":"Impart quality education to mould successful engineers.",
+                "mission2":"Commitment to continuous improvement in overall quality of teaching, research, and service.",
+                "mission3":"Provide state-of-the-art infrastructure and research facilities.",
+                "vision":"To become a recognised center for imparting outstanding education, research, and consultancy in Mechanical Engineering",
+                "HodName":"Dr. Mahipal D",
+                "email":"hodme@gecskp.ac.in",
+                "phone":"9447432394"
+            }
+        ]
+    },
+    {
+        "id":6,
+        "name":"Dr. Mahipal D",
+        "department":"Computer Science and Engineering",
+        "image":"/images/faculty_img.png",
+        "departmentPage":[
+            {
+                "heading":"Electrical and Electronics Engineering",
+                "about":"The department, affiliated to APJ Abdul Kalam Technological University, has been offering B.Tech degree in Mechanical Engineering since 2012. Total intake is 60+3, with additional lateral entry of 6 in the second year. Over the years, the department has transformed into a major centre for breeding mechanical engineering graduates of high quality, by the learning environment facilitated by faculty of top-notch calibre, with the support of modern laboratories, qualified technical staff and excellent class room and general infrastructure.The department relentlessly pursue excellence in creating a world class system for teaching, learning and research by rigorous assessments, both internal and external, of our processes, and benchmarking with top tier institutes. The process of continuous self upgradation helps us to stay relevant and to be a torch bearer in the ever changing world of technical education. We are committed to nurture engineering graduates, who have strong foundation of basic concepts, proficiency to use modern tools, soft skills to thrive in a team environment and a strong sense of ethics and societal commitment, which make them not only fit for industry and higher education but also responsible citizen.",
+                "mission1":"Impart quality education to mould successful engineers.",
+                "mission2":"Commitment to continuous improvement in overall quality of teaching, research, and service.",
+                "mission3":"Provide state-of-the-art infrastructure and research facilities.",
+                "vision":"To become a recognised center for imparting outstanding education, research, and consultancy in Mechanical Engineering",
+                "HodName":"Dr. Mahipal D",
+                "email":"hodme@gecskp.ac.in",
+                "phone":"9447432394"
+            }
+        ]
+    }
+]

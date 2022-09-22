@@ -1,0 +1,85 @@
+.gallery_container {
+  background: url(../body_background.png);
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.gallery_img {
+  width: 100%;
+  height: 214px;
+  object-fit: cover;
+}
+.gallery_img2{
+    width: 100%;
+    height: 458px;
+    object-fit: cover;
+}
+.gallery_img3{
+    width: 100%;
+    height: 214px;
+    object-fit: cover;
+    margin-top: 30px;
+}
+
+.gallery_img5{
+    width: 100%;
+    height: 214px;
+    object-fit: cover;
+}
+
+.gallery__heading {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 130.5%;
+  color: #000000;
+}
+
+.gallery__para {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130.5%;
+  color: #000000;
+  margin: 0 0 30px 0;
+}
+.dynamic__imgs{
+  position: relative;
+}
+.dynamic__imgs > .gallery_heading{
+  background-color: #F9F4EF;
+  height: 75px;
+  width: 200px;
+  position: absolute;
+  bottom: 0;
+  left: 12px;
+  display: none;
+}
+.gallery_heading{
+  transition: 3s;
+}
+.gallery_heading >h1{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+position: absolute;
+bottom: 10px;
+left: 20px;
+}
+.dynamic__imgs > img:hover{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.dynamic__imgs > .gallery_heading{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.dynamic__imgs > img:hover ~.gallery_heading{
+  display: block;
+}
+.gallery_heading:hover{
+  display: block;
+}
