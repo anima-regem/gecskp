@@ -123,7 +123,7 @@ const AdminSyllabus = () => {
 
       <div className="col-lg-5">
         {syllabus.map((syllabusData) => (
-          <Syllabus syllabusData={syllabusData} />
+          <Syllabus key={syllabusData.id} syllabusData={syllabusData} />
         ))}
       </div>
     </div>

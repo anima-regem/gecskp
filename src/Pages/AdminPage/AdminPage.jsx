@@ -27,6 +27,7 @@ import AdminIQAC from "../../AdminComponents/AdminIQAC"
 import AdminNIRF from "../../AdminComponents/AdminNIRF"
 import AdminToppers from "../../AdminComponents/AdminToppers"
 import AdminSyllabus from "../../AdminComponents/AdminSyllabus"
+import AdminAICTE from "../../AdminComponents/AdminAICTE"
 
 
 function AdminPage() {
@@ -166,8 +167,9 @@ function AdminPage() {
             {adminFormStatus === "upcomming" && <AdminUpcommingEvents />}
             {adminFormStatus === "admin" && <AdminAdministration/>}
             {adminFormStatus === "gallery" && <AdminGallery/>}
+            {adminFormStatus === 'rules' && <AdminRules/>}
             {adminFormStatus === 'syllabus' && <AdminSyllabus/>}
-            {adminFormStatus === 'aicte' && <AdminRules/>}
+            {adminFormStatus === 'aicte' && <AdminAICTE/>}
             {adminFormStatus === 'affiliations' && <AdminAff/>}
             {adminFormStatus === 'nirf' && <AdminNIRF/>}
             {adminFormStatus === 'iqac' && <AdminIQAC/>}
