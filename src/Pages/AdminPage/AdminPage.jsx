@@ -1,6 +1,6 @@
 import React from "react";
-import AdminAnnouncementForm from "../../Components/AdminAnnouncementForm/AdminAnnouncementForm";
-import AdminNewsForm from "../../Components/AdminNewsForm/AdminNewsForm";
+// import AdminAnnouncementForm from "../../Components/AdminAnnouncementForm/AdminAnnouncementForm";
+// import AdminNewsForm from "../../Components/AdminNewsForm/AdminNewsForm";
 import "../AdminPage/AdminPage.css";
 import { useState } from "react";
 import {
@@ -11,10 +11,10 @@ import {
   AccordionItemPanel,
 } from "react-accessible-accordion";
 import "react-accessible-accordion/dist/fancy-example.css";
-import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
+// import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 
-import AdminEventForm from "../../Components/AdminEventForm/AdminEventForm";
-import AdminData from "../../Components/AdminData/AdminData";
+// import AdminEventForm from "../../Components/AdminEventForm/AdminEventForm";
+// import AdminData from "../../Components/AdminData/AdminData";
 import AdminCourse from "../../AdminComponents/AdminCourse/AdminCourse";
 import AdminAdmission from "../../AdminComponents/AdminAdmission/AdminAdmission";
 import AdminBannerImages from "../../AdminComponents/AdminBannerImages";
@@ -22,6 +22,12 @@ import AdminUpcommingEvents from "../../AdminComponents/AdminUpcommingEvents";
 import AdminAdministration from "../../AdminComponents/AdminAdministration";
 import AdminGallery from "../../AdminComponents/AdminGallery";
 import AdminRules from "../../AdminComponents/AdminRules"
+import AdminAff from "../../AdminComponents/AdminAff"
+import AdminIQAC from "../../AdminComponents/AdminIQAC"
+import AdminNIRF from "../../AdminComponents/AdminNIRF"
+import AdminToppers from "../../AdminComponents/AdminToppers"
+import AdminSyllabus from "../../AdminComponents/AdminSyllabus"
+
 
 function AdminPage() {
   const [adminFormStatus, setAdminFormStatus] = useState("banner");
@@ -160,7 +166,13 @@ function AdminPage() {
             {adminFormStatus === "upcomming" && <AdminUpcommingEvents />}
             {adminFormStatus === "admin" && <AdminAdministration/>}
             {adminFormStatus === "gallery" && <AdminGallery/>}
-            {adminFormStatus === 'rules' && <AdminRules/>}
+            {adminFormStatus === 'syllabus' && <AdminSyllabus/>}
+            {adminFormStatus === 'aicte' && <AdminRules/>}
+            {adminFormStatus === 'affiliations' && <AdminAff/>}
+            {adminFormStatus === 'nirf' && <AdminNIRF/>}
+            {adminFormStatus === 'iqac' && <AdminIQAC/>}
+            {adminFormStatus === 'toppers' && <AdminToppers/>}
+
 
 
           </div>
